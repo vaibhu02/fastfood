@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Main Course</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="menu-container">
+        <nav class="menu-nav">
+            <a href="menu1.html" class="menu-nav-link">Starters</a>
+            <a href="menu2.html" class="menu-nav-link active">Main Course</a>
+            <a href="menu3.html" class="menu-nav-link">Desserts</a>
+            <a href="menu4.html" class="menu-nav-link">Drinks</a>
+        </nav>
+
+        <div class="menu-content">
+            <h2>Main Course</h2>
+            
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <img src="./assets/images/main1.jpg" alt="Main Course 1">
+                    <div class="item-details">
+                        <h3>Butter Chicken</h3>
+                        <p>Creamy butter chicken with naan bread</p>
+                        <div class="price-order">
+                            <span class="price">₹399</span>
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more main course items -->
+            </div>
+
+            <div class="nav-buttons">
+                <button onclick="window.location.href='menu1.html'" class="prev-btn">← Previous</button>
+                <button onclick="window.location.href='menu3.html'" class="next-btn">Next →</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

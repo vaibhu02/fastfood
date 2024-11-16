@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Food Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+</head>
+<body>
+    <!-- Header with Navbar -->
+    <header class="header" data-header>
+        <div class="container">
+            <h1>
+                <a href="#" class="logo">swiggy<span class="span">.</span></a>
+            </h1>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" target="_blank" class="navbar-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu1.html" class="navbar-link active">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="navbar-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-btn-group">
+                <button class="search-btn" aria-label="Search" data-search-btn>
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+                <button class="btn btn-hover">Reservation</button>
+                <button class="nav-toggle-btn" aria-label="Toggle Menu">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-container">
+        <!-- Menu Navigation -->
+        <nav class="menu-nav">
+            <a href="menu1.html" class="menu-nav-link active">Starters</a>
+            <a href="menu2.html" class="menu-nav-link">Main Course</a>
+            <a href="menu3.html" class="menu-nav-link">Desserts</a>
+            <a href="menu4.html" class="menu-nav-link">Beverages</a>
+        </nav>
+
+        <div class="menu-content">
+            <h2>Starters</h2>
+            
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <img src="./assets/images/food-menu-1.png" alt="Starter 1">
+                    <div class="item-details">
+                        <h3>Spring Rolls</h3>
+                        <p>Crispy vegetable spring rolls</p>
+                        <div class="price-order">
+                            <span class="price">₹199</span>
+                            <button class="order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more starters -->
+            </div>
+
+            <button onclick="window.location.href='menu2.html'" class="next-btn">Next Page →</button>
+        </div>
+    </div>
+</body>
+</html> 

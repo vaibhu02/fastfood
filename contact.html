@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Food Website</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any queries or feedback</p>
+
+            <!-- Contact Information -->
+            <div class="info-section">
+                <div class="info-item">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>123 Food Street, Ahmedabad, Gujarat 380001</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p>+91 98765 43210</p>
+                        <p>+91 98765 43211</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <div>
+                        <h3>Email Address</h3>
+                        <p>info@foodwebsite.com</p>
+                        <p>support@foodwebsite.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Sunday</p>
+                        <p>9:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send Message</h2>
+            <form id="messageForm">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" required placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address *</label>
+                    <input type="email" required placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label>Subject *</label>
+                    <input type="text" required placeholder="Enter message subject">
+                </div>
+
+                <div class="form-group">
+                    <label>Your Message *</label>
+                    <textarea required placeholder="Write your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-section">
+            <h2>Find Us On Map</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_URL"
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html> 
